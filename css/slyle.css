@@ -171,6 +171,19 @@ link {
     letter-spacing: 0.02em;
 }
 
+.menu-style-portfolio {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.menu-style-portfolio:hover,
+.menu-style-portfolio:focus {
+    color: #404bbf
+}
+
+
 a {
     text-decoration: none;
 }
