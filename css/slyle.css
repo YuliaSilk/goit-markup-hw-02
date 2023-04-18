@@ -188,7 +188,7 @@ ul {
     line-height: 1.2;
 }
 .logo-studio {
-   color: #2E2F42; 
+   color: var(--title-text-color); 
    font-family: 'Raleway';
    font-weight: 800;
    font-size: 18px;
