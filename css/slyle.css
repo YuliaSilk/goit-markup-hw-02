@@ -13,40 +13,41 @@ font-family: Roboto, sans-serif;
 letter-spacing: 0.02em;
 }
 
-a {
+link {
     text-decoration: none;
 }
 
 /* header */
-.logo-web {
+.link-logo {
     color: #4D5AE5;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.2;
-}
-.logo-studio {
-   color: #2E2F42; 
-   font-family: 'Raleway';
-   font-weight: 800;
-   font-size: 18px;
-   line-height: 1.2;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-ul {
+.logo-studio {
+   color:var(--title-text-color); 
+   
+}
+
+.list {
     list-style: none;
 }
 
-.site-nav .link {
-    color: #2E2F42;
+.menu-style .link {
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover, 
-.site-nav .link:focus {
-    color: #000000;
+.menu-style .link:hover, 
+.menu-style .link:focus {
+    color: #404bbf;
 }
 .address a {
     color: var(--primery-text-color);
@@ -69,8 +70,10 @@ ul {
     color:var(--acent-color);
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
     width: 496px;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .button {
     cursor: pointer;
@@ -80,17 +83,23 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.04em;
 }
 
 .button-active:hover {
    background-color: #404BBF;
 }
 
+.hide {
+    display: none;}
+
 .section-title {
     color:var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
 }
 
@@ -99,10 +108,14 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .section-team{
     background-color:  #F4F4FD;
+}
+.text {
+    font-size: 16px;
     text-align: center;
 }
 /* footer */
@@ -167,9 +180,11 @@ ul {
     cursor: pointer;
     background: #404BBF;
     color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .filter-button {
@@ -187,12 +202,13 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 p {
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
+    color: var(--primery-text-color);
 }
 
 /* footer */
